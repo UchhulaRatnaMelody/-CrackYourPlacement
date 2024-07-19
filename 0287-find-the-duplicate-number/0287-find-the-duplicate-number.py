@@ -5,7 +5,7 @@ class Solution:
         while s != f:
             s = nums[s]
             f = nums[nums[f]]
-        s=0
+        s = 0
         while s != f:
             s = nums[s]
             f = nums[f]
